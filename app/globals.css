@@ -1,26 +1,60 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --cream: #f3ebd5;
+  --ink: #111111;
+  --ink-soft: #2b2b2b;
+  --gold: #c9a063;
+  --tan: #d4a06a;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-gold: var(--gold);
+  --color-tan: var(--tan);
+  --font-display: var(--font-unbounded);
+  --font-body: var(--font-poppins);
+  --font-condensed: var(--font-oswald);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--cream);
+  color: var(--ink-soft);
+  font-family: var(--font-poppins), "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-unbounded), "Unbounded", sans-serif;
+}
+
+.font-condensed {
+  font-family: var(--font-oswald), "Oswald", "Arial Narrow", sans-serif;
+}
+
+/* Arch shape: rounded top, square bottom */
+.arch {
+  border-radius: 9999px 9999px 0 0;
+}
+
+/* Spinning circular text badge */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin-slow {
+  animation: spin-slow 14s linear infinite;
+}
+
+img {
+  display: block;
 }
