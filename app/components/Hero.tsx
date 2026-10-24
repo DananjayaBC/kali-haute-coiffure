@@ -17,11 +17,10 @@ export default function Hero() {
 
           <h1 className="font-display text-[50px] font-semibold leading-[1.1] tracking-tight text-ink sm:text-[72px] md:text-[88px] lg:text-[100px]">
             <span className="flex items-center gap-4 sm:gap-6">
-              Kali
+              Salon
               <PillBadge img={BADGE_IMG} />
             </span>
-            <span className="block">Haute</span>
-            <span className="block">Coiffure</span>
+            <span className="block">Apsa</span>
           </h1>
 
           <div className="mt-8 flex items-start gap-5 sm:gap-6 lg:mt-10">
@@ -48,14 +47,14 @@ export default function Hero() {
             <div className="aspect-[39/59] w-full overflow-hidden rounded-full">
               <img
                 src={HERO_IMG}
-                alt="Kali Haute Coiffure"
+                alt="Salon Apsa"
                 width={390}
                 height={590}
                 className="h-full w-full object-cover"
               />
             </div>
             <div className="absolute left-0 top-[280px] sm:top-[380px] lg:left-[-55px] lg:top-[336px]">
-              <CircleText id="hero" text="CONTACT ME • KALI HAUTE COIFFURE • " size={150}>
+              <CircleText id="hero" text="CONTACT ME • SALON APSA • " size={150}>
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-ink">
                   <ArrowIcon />
                 </span>

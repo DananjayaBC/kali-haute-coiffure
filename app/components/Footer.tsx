@@ -23,7 +23,7 @@ export default function Footer() {
     <footer id="contact" className="mt-6 w-full rounded-t-[40px] bg-ink px-6 pb-10 pt-12 text-white sm:rounded-t-[70px]">
       <div className="mx-auto max-w-[1200px]">
         <div className="flex flex-col items-center">
-          <Logo size={110} className="shadow-[0_0_0_6px_#1c1c1c]" />
+          <Logo size={140} className="shadow-[0_0_0_6px_#1c1c1c]" />
           <h2 className="font-condensed mt-10 text-center text-[26px] font-semibold uppercase tracking-wide text-gold">
             Subscribe for offers
           </h2>
@@ -58,8 +58,8 @@ export default function Footer() {
             </p>
             <p className="mt-3 text-[15px] tracking-wide text-[#e4e4e4] break-words">
               Email:{" "}
-              <a href="mailto:info@kalihautecoiffure.ca" className="hover:text-gold">
-                info@kalihautecoiffure.ca
+              <a href="mailto:info@salonapsa.com" className="hover:text-gold">
+                info@salonapsa.com
               </a>
             </p>
             <p className="mt-3 text-[15px] tracking-wide text-[#e4e4e4]">
@@ -94,8 +94,8 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col items-center justify-between gap-3 border-t border-[#555] px-6 pt-8 text-center text-[13px] text-[#e4e4e4] md:flex-row">
-          <p>Copyright &copy; 2023 Kali Coiffure</p>
-          <p>Powered by Kali Coiffure</p>
+          <p>Copyright &copy; 2023 Salon Apsa</p>
+          <p>Powered by Salon Apsa</p>
         </div>
       </div>
     </footer>

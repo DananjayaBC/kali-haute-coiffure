@@ -1,6 +1,6 @@
-# Kali Haute Coiffure — Salon Website (Template 1)
+# Salon Apsa — Salon Website (Template 1)
 
-Landing page for **Kali Haute Coiffure**, a hair salon at 2346 Lakeshore Rd W, Oakville, ON, Canada.
+Landing page for **Salon Apsa**, a hair salon at 2346 Lakeshore Rd W, Oakville, ON, Canada.
 
 **Style:** retro cream and black palette, gold accents, pill and arch photo shapes, rotating circular text badges, Unbounded + Poppins fonts.
 

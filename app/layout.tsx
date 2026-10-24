@@ -21,9 +21,9 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "Kali Haute Coiffure",
+  title: "Salon Apsa",
   description:
-    "Kali Haute Coiffure - hair salon in Oakville. Officially open now at 2346 Lakeshore Rd W, Oakville.",
+    "Salon Apsa - hair salon in Oakville. Officially open now at 2346 Lakeshore Rd W, Oakville.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

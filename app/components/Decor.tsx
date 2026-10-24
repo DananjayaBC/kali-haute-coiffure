@@ -110,28 +110,20 @@ export function PillBadge({
   );
 }
 
-/** Circular "K" monogram logo */
+/** Circular Salon Apsa logo */
 export function Logo({ size = 48, className = "" }: { size?: number; className?: string }) {
   return (
     <span
-      className={`inline-flex items-center justify-center rounded-full bg-[#111] ring-1 ring-[#3a3a3a] ${className}`}
+      className={`inline-flex items-center justify-center overflow-hidden rounded-full ring-1 ring-[#3a3a3a] ${className}`}
       style={{ width: size, height: size }}
-      aria-label="Kali Haute Coiffure"
     >
-      <svg width={size} height={size} viewBox="0 0 48 48" fill="none" aria-hidden="true">
-        <circle cx="24" cy="24" r="16" stroke="#c9a063" strokeWidth="0.9" opacity="0.8" />
-        <text
-          x="24"
-          y="30"
-          textAnchor="middle"
-          fontFamily="Georgia, 'Times New Roman', serif"
-          fontSize="20"
-          fontWeight="300"
-          fill="#c9a063"
-        >
-          K
-        </text>
-      </svg>
+      <img
+        src="/salon-apsa-logo.jpg"
+        alt="Salon Apsa"
+        width={size}
+        height={size}
+        className="h-full w-full object-cover"
+      />
     </span>
   );
 }

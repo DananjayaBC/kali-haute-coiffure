@@ -11,7 +11,7 @@ export default function Nav() {
   return (
     <header className="mx-auto flex w-full max-w-[1200px] flex-wrap items-center justify-between px-6 pt-6 pb-2 md:pt-9">
       <a href="#home" className="shrink-0">
-        <Logo size={52} />
+        <Logo size={64} />
       </a>
       <nav className="hidden items-center gap-10 text-[17px] text-ink md:flex">
         {links.map((l) => (

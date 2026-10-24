@@ -24,10 +24,10 @@ export default function About() {
             </span>
           </h2>
           <p className="mt-8 text-[15px] font-medium leading-[1.7] text-ink-soft lg:mt-10">
-            Kali Haute Coiffure was founded in 2010 by hairstylist Khalid Hussain , who has been
+            Salon Apsa was founded in 2010 by hairstylist Khalid Hussain , who has been
             working in the industry for over 15 years. He saw a need for a salon that provided
             personalized, quality services to clients, and decided to start her own business.
-            Today, Glamour Coiffure is one of the most well-known and respected salons in the city.
+            Today, Salon Apsa is one of the most well-known and respected salons in the city.
           </p>
           <div className="relative mt-8 flex items-center gap-8">
             <a
